@@ -3,13 +3,13 @@
 }
 
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
-.cbp-mc-form:before, 
-.cbp-mc-form:after { 
-	content: " "; display: table; 
+.cbp-mc-form:before,
+.cbp-mc-form:after {
+	content: " "; display: table;
 }
 
-.cbp-mc-form:after { 
-	clear: both; 
+.cbp-mc-form:after {
+	clear: both;
 }
 
 .cbp-mc-column {
@@ -40,8 +40,7 @@
 	background: transparent;
 }
 
-.cbp-mc-form input,
-.cbp-mc-form textarea {
+.cbp-mc-form input, .cbp-mc-form textarea, .cbp-mc-form select {
 	border: 3px solid #fff;
 }
 
